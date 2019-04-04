@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('header')
-    <link rel="stylesheet" href="{{ asset('css/login.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/homepage.css') }}">
 @stop
 
 @section('navbar')
@@ -33,10 +33,9 @@
         </a>
     </div>
 
-    {{--welcome container--}}
-    <div class="container">
+    {{--section Major Service--}}
+    @include("homepage.major_services")
 
-    </div>
 @stop
 
 @section('footer')
