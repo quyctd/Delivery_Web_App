@@ -1,0 +1,161 @@
+.service .service-wrap {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(33, 33, 33, 0.1);
+    -o-box-shadow: 0 4px 6px rgba(33, 33, 33, 0.1);
+    -ms-box-shadow: 0 4px 6px rgba(33, 33, 33, 0.1);
+    -moz-box-shadow: 0 4px 6px rgba(33, 33, 33, 0.1);
+    -webkit-box-shadow: 0 4px 6px rgba(33, 33, 33, 0.1);
+}
+
+.service .service-wrap .pic {
+    position: relative;
+}
+
+.service .service-wrap .pic img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.major-services.gray-boxes .service-wrap .info {
+    background-color: #f5f5f5;
+}
+
+.service .service-wrap .info {
+    padding: 45px 30px;
+    text-align: center;
+}
+
+.service .service-wrap .info .title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.service .service-wrap .info p {
+    margin-bottom: 0px;
+}
+
+.worldwide {
+    position: relative;
+}
+
+.worldwide .map {
+    position: relative;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.worldwide .map img {
+    margin: 0 auto;
+}
+
+.worldwide .map-locations {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.worldwide .map-connect {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+section.estimate {
+    max-width: 100%;
+    overflow: hidden;
+}
+section .estimate-wrap {
+    margin: -15px;
+    padding: 125px 0px 0 0;
+    display: inline-block;
+}
+
+section .estimate-wrap .pic {
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+section.clients {
+    position: relative;
+}
+
+section.clients .container{
+    padding-bottom: 75px;
+}
+
+.client {
+    min-height: 80px;
+    text-align: center;
+    position: relative;
+    padding-left: 0px;
+}
+
+.clients .client {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .clients .client{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .client img {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .clients .client:last-child{
+        margin-bottom: 0px;
+    }
+
+    .client img {
+        margin: 0 auto;
+    }
+}
+
+.contact-info {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.contact-info i {
+    font-size: 24px;
+    color: #03a9f4;
+    line-height: 30px;
+}
+
+.contact-info .title {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.contact-info .value {
+    font-weight: bold;
+}
+
+.contact-full-info h5 {
+    text-transform: uppercase;
+}
+
+#contact-map{
+    height: 300px;
+    background-color: #f5f5f5;
+}

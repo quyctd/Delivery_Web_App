@@ -69,6 +69,25 @@ section .headul:after {
     display: block;
 }
 
+section .headul.text-left:after {
+    margin:0;
+}
+
+section .subheading {
+    text-align: center;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 0px 50px 100px 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section .subheading.text-left {
+    text-align: left;
+    padding-left: 0px;
+    margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 15px 0;
     font-weight: 700;
@@ -80,6 +99,78 @@ h1 {
     line-height: 80px;
 }
 
-.row {
+.bg-black {
+    background-color: #212121;
+}
+
+.animated.delay2 {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+
+.animated.delay6 {
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
+
+.visiblethis {
+    opacity: 1;
+}
+
+form label {
     display: block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+form input {
+    background-color: #e6e6e6;
+    color: #757575;
+    border: 0px solid rgba(255, 255, 255, 0.5);
+    height: 50px;
+    padding: 10px 15px;
+    margin-bottom: 40px;
+    vertical-align: top;
+}
+
+form textarea {
+    background-color: #e6e6e6;
+    color: #757575;
+    border: 0px solid rgba(255, 255, 255, 0.5);
+    height: 150px;
+    padding: 10px 15px;
+    margin-bottom: 40px;
+    vertical-align: top;
+}
+
+form input, form textarea {
+    background-position: 97% 15px;
+    width: 100%;
+}
+
+.btn, a, .transition, .animated {
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
+    -webkit-transition-timing-function: cubic-bezier(.4, 0, .5, 1);
+    -moz-transition-timing-function: cubic-bezier(.4, 0, .5, 1);
+    transition-timing-function: cubic-bezier(.4, 0, .5, 1);
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    outline: none;
+    border: 0px solid #03a9f4;
+    background-color: #eeeeee;
+}
+
+.animated.delay1 {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
+}
+
+.inviewport, .hiddenthis {
+    opacity: 0;
 }

@@ -36,6 +36,18 @@
     {{--section Major Service--}}
     @include("homepage.major_services")
 
+    {{--section Major Service--}}
+    @include("homepage.worldwide")
+
+    {{--section Services Estimate--}}
+    @include("homepage.estimate")
+
+    {{--section Services Estimate--}}
+    @include("homepage.clients")
+
+    {{--section Get in touch--}}
+    @include("homepage.contact")
+
 @stop
 
 @section('footer')
